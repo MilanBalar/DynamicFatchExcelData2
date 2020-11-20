@@ -21,7 +21,11 @@ public class DAO {
 
 	@Transactional
 	public void save(List<MobileInfo> mobileList) {
-		ht.save(mobileList);
+
+		for (MobileInfo mobile : mobileList) {
+
+			ht.save(mobile);
+		}
 	}
 
 }

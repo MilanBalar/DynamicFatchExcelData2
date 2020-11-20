@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "mobile_data2")
+@Table(name = "Excel_data__2")
 public class MobileInfo {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
